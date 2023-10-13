@@ -1,0 +1,64 @@
+html,body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+}
+
+button {
+	float: left;
+	width: 33.333%;
+	height: 40px;
+	font-size: 20px;
+	color: white;
+	background: red;
+	border: 2px solid black;
+}
+
+.imgcontainer {
+	height: 400px;
+}
+
+.im {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#imcat {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#imdog {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+#cat {
+	width: calc(100% - 20px);
+	height: calc(100% - 100px);
+	padding: 10px 10px 90px 10px;
+	background: blue;
+	
+}
+
+#dog {
+	width: calc(100% - 20px);
+	height: calc(100% - 100px);
+	padding: 10px 10px 90px 10px;
+	background: green;
+}
+
+.imgcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
